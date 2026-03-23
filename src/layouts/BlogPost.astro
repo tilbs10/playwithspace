@@ -14,10 +14,10 @@ interface Props {
 const { title, date, category, type, result, focus, tags } = Astro.props;
 
 const categoryColors: Record<string, string> = {
-  fundamentals: 'bg-blue-100 text-blue-700',
-  coaching: 'bg-orange-100 text-orange-700',
-  mindset: 'bg-purple-100 text-purple-700',
-  stories: 'bg-green-100 text-green-700',
+  fundamentals: 'bg-blue-50 text-blue-700',
+  coaching: 'bg-green-50 text-green-800',
+  mindset: 'bg-purple-50 text-purple-700',
+  stories: 'bg-amber-50 text-amber-700',
 };
 
 const typeLabel: Record<string, string> = {
@@ -36,12 +36,10 @@ const formattedDate = date.toLocaleDateString('en-AU', {
 <BaseLayout title={title} description={`${typeLabel[type] ?? ''} — ${title}`}>
   <article class="max-w-2xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
 
-    <!-- Back link -->
-    <a href="/blog" class="text-sm text-stone-500 hover:text-orange-600 transition-colors mb-8 inline-block">
+    <a href="/blog" class="text-sm text-stone-400 hover:text-green-800 transition-colors mb-8 inline-block">
       ← All posts
     </a>
 
-    <!-- Meta -->
     <div class="flex items-center gap-2 mb-4">
       <span class={`text-xs font-semibold px-2 py-0.5 rounded-full ${categoryColors[category] ?? 'bg-stone-100 text-stone-600'}`}>
         {category}
@@ -52,7 +50,6 @@ const formattedDate = date.toLocaleDateString('en-AU', {
       )}
     </div>
 
-    <!-- Title -->
     <h1 class="text-3xl sm:text-4xl font-bold text-stone-900 leading-tight mb-3">
       {title}
     </h1>
@@ -63,12 +60,10 @@ const formattedDate = date.toLocaleDateString('en-AU', {
 
     <p class="text-sm text-stone-400 mb-10">{formattedDate}</p>
 
-    <!-- Content -->
     <div class="prose">
       <slot />
     </div>
 
-    <!-- Tags -->
     {tags && tags.length > 0 && (
       <div class="mt-10 pt-6 border-t border-stone-200">
         <div class="flex flex-wrap gap-2">

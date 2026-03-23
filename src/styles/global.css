@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-accent: #ea580c;
-  --color-accent-dark: #c2410c;
+  --color-accent: #166534;
+  --color-accent-dark: #14532d;
 }
 
 /* Base typography */
@@ -28,7 +28,7 @@ html {
 
 .prose h2 {
   font-size: 1.5rem;
-  border-bottom: 2px solid #ea580c;
+  border-bottom: 2px solid #166534;
   padding-bottom: 0.25rem;
 }
 
@@ -55,12 +55,12 @@ html {
 }
 
 .prose a {
-  color: #ea580c;
+  color: #166534;
   text-decoration: underline;
 }
 
 .prose a:hover {
-  color: #c2410c;
+  color: #14532d;
 }
 
 .prose strong {
@@ -69,7 +69,7 @@ html {
 }
 
 .prose blockquote {
-  border-left: 4px solid #ea580c;
+  border-left: 4px solid #166534;
   padding-left: 1rem;
   font-style: italic;
   color: #57534e;

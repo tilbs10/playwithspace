@@ -12,10 +12,10 @@ interface Props {
 const { title, date, category, type, slug, result, focus } = Astro.props;
 
 const categoryColors: Record<string, string> = {
-  fundamentals: 'bg-blue-100 text-blue-700',
-  coaching: 'bg-orange-100 text-orange-700',
-  mindset: 'bg-purple-100 text-purple-700',
-  stories: 'bg-green-100 text-green-700',
+  fundamentals: 'bg-blue-50 text-blue-700',
+  coaching: 'bg-green-50 text-green-800',
+  mindset: 'bg-purple-50 text-purple-700',
+  stories: 'bg-amber-50 text-amber-700',
 };
 
 const typeLabel: Record<string, string> = {
@@ -33,7 +33,7 @@ const formattedDate = date.toLocaleDateString('en-AU', {
 
 <a
   href={`/blog/${slug}`}
-  class="block bg-white border border-stone-200 rounded-xl p-6 hover:border-orange-300 hover:shadow-sm transition-all group"
+  class="block bg-white border border-stone-200 rounded-xl p-6 hover:border-green-700 hover:shadow-sm transition-all group"
 >
   <div class="flex items-center gap-2 mb-3">
     <span class={`text-xs font-semibold px-2 py-0.5 rounded-full ${categoryColors[category] ?? 'bg-stone-100 text-stone-600'}`}>
@@ -45,7 +45,7 @@ const formattedDate = date.toLocaleDateString('en-AU', {
     )}
   </div>
 
-  <h2 class="font-bold text-stone-900 text-lg leading-snug mb-2 group-hover:text-orange-600 transition-colors">
+  <h2 class="font-bold text-stone-900 text-lg leading-snug mb-2 group-hover:text-green-800 transition-colors">
     {title}
   </h2>
 
