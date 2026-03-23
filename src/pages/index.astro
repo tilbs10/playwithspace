@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Play With Space"
+  description="Basketball coaching — space, movement, and the game within the game."
+>
+
+  <!-- Hero -->
+  <section class="border-b border-stone-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 py-16 sm:py-24">
+      <p class="text-sm font-semibold text-orange-600 uppercase tracking-widest mb-4">
+        Basketball Coaching
+      </p>
+      <h1 class="text-4xl sm:text-5xl font-bold text-stone-900 leading-tight mb-6">
+        The game is about space.<br />
+        Most players never learn to use it.
+      </h1>
+      <p class="text-lg sm:text-xl text-stone-600 max-w-2xl leading-relaxed mb-8">
+        Play With Space is a coaching journal exploring spacing, movement, and awareness
+        in youth basketball. Every session, every game, every lightbulb moment —
+        written down so the lessons don't disappear.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a
+          href="/blog"
+          class="inline-block bg-orange-600 hover:bg-orange-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+        >
+          Read the blog
+        </a>
+        <a
+          href="/about"
+          class="inline-block bg-white hover:bg-stone-100 text-stone-800 font-semibold px-6 py-3 rounded-lg border border-stone-200 transition-colors"
+        >
+          What is this?
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Three pillars -->
+  <section class="border-b border-stone-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <h2 class="text-xs font-semibold text-stone-400 uppercase tracking-widest mb-8">
+        What we write about
+      </h2>
+      <div class="grid sm:grid-cols-3 gap-6">
+        <div class="p-6 bg-white rounded-xl border border-stone-200">
+          <div class="text-2xl mb-3">📐</div>
+          <h3 class="font-bold text-stone-900 mb-2">Fundamentals</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">
+            Spacing, movement without the ball, floor balance. The unsexy stuff
+            that wins games.
+          </p>
+        </div>
+        <div class="p-6 bg-white rounded-xl border border-stone-200">
+          <div class="text-2xl mb-3">📋</div>
+          <h3 class="font-bold text-stone-900 mb-2">Coaching</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">
+            Session plans, game breakdowns, drills worth stealing.
+            The real work between whistles.
+          </p>
+        </div>
+        <div class="p-6 bg-white rounded-xl border border-stone-200">
+          <div class="text-2xl mb-3">🧠</div>
+          <h3 class="font-bold text-stone-900 mb-2">Mindset</h3>
+          <p class="text-sm text-stone-600 leading-relaxed">
+            Presence, awareness, learning to read the game.
+            What separates players who "get it".
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coming soon / placeholder for latest posts -->
+  <section>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <div class="flex items-center justify-between mb-8">
+        <h2 class="text-xs font-semibold text-stone-400 uppercase tracking-widest">
+          Latest posts
+        </h2>
+        <a href="/blog" class="text-sm text-orange-600 hover:text-orange-700 font-medium">
+          View all →
+        </a>
+      </div>
+
+      <!-- Placeholder — will be replaced with real posts in Week 2 -->
+      <div class="rounded-xl border-2 border-dashed border-stone-200 p-12 text-center">
+        <p class="text-stone-400 text-sm">
+          Posts coming soon. Season starts shortly.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
