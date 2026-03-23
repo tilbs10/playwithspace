@@ -18,28 +18,84 @@ const categories = ['all', 'fundamentals', 'coaching', 'mindset', 'stories'] as 
     <h1 class="text-3xl sm:text-4xl font-bold text-stone-900 mb-4">
       All posts
     </h1>
-    <p class="text-stone-600 mb-10">
+    <p class="text-stone-600 mb-8">
       {sortedPosts.length} {sortedPosts.length === 1 ? 'post' : 'posts'} so far.
     </p>
+
+    <!-- Category filter buttons -->
+    <div class="flex flex-wrap gap-2 mb-8" id="filter-buttons">
+      {categories.map((cat) => (
+        <button
+          data-filter={cat}
+          class={`filter-btn px-4 py-1.5 rounded-full text-sm font-medium border transition-colors cursor-pointer ${
+            cat === 'all'
+              ? 'bg-orange-600 text-white border-orange-600'
+              : 'bg-white text-stone-600 border-stone-200 hover:border-orange-300'
+          }`}
+        >
+          {cat.charAt(0).toUpperCase() + cat.slice(1)}
+        </button>
+      ))}
+    </div>
 
     {sortedPosts.length === 0 ? (
       <div class="rounded-xl border-2 border-dashed border-stone-200 p-12 text-center">
         <p class="text-stone-400 text-sm">Posts coming soon. Season starts shortly.</p>
       </div>
     ) : (
-      <div class="grid gap-4">
+      <div class="grid gap-4" id="post-list">
         {sortedPosts.map((post) => (
-          <PostCard
-            title={post.data.title}
-            date={post.data.date}
-            category={post.data.category}
-            type={post.data.type}
-            slug={post.id}
-            result={post.data.result}
-            focus={post.data.focus}
-          />
+          <div data-category={post.data.category} class="post-item">
+            <PostCard
+              title={post.data.title}
+              date={post.data.date}
+              category={post.data.category}
+              type={post.data.type}
+              slug={post.id}
+              result={post.data.result}
+              focus={post.data.focus}
+            />
+          </div>
         ))}
       </div>
     )}
+
+    <!-- Empty state when filter has no results -->
+    <p id="no-results" class="hidden text-stone-400 text-sm text-center py-12">
+      No posts in this category yet.
+    </p>
   </div>
 </BaseLayout>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const posts = document.querySelectorAll<HTMLElement>('.post-item');
+  const noResults = document.getElementById('no-results');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.dataset.filter;
+
+      // Update button styles
+      buttons.forEach(b => {
+        b.classList.remove('bg-orange-600', 'text-white', 'border-orange-600');
+        b.classList.add('bg-white', 'text-stone-600', 'border-stone-200');
+      });
+      btn.classList.add('bg-orange-600', 'text-white', 'border-orange-600');
+      btn.classList.remove('bg-white', 'text-stone-600', 'border-stone-200');
+
+      // Show/hide posts
+      let visible = 0;
+      posts.forEach(post => {
+        const match = filter === 'all' || post.dataset.category === filter;
+        post.style.display = match ? '' : 'none';
+        if (match) visible++;
+      });
+
+      // Show empty state if nothing matches
+      if (noResults) {
+        noResults.classList.toggle('hidden', visible > 0);
+      }
+    });
+  });
+</script>
