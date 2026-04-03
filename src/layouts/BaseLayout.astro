@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import LeatherFAB from '../components/LeatherFAB.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -33,7 +34,7 @@ const imageURL = new URL(image, Astro.site ?? 'https://playwithspace.com');
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
 
-    <!-- Open Graph (Facebook, LinkedIn, iMessage previews) -->
+    <!-- Open Graph -->
     <meta property="og:type" content={type} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
@@ -50,14 +51,18 @@ const imageURL = new URL(image, Astro.site ?? 'https://playwithspace.com');
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <!-- RSS feed -->
+    <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="Play With Space" href="/rss.xml" />
   </head>
-  <body class="bg-stone-50 text-stone-900 antialiased min-h-screen flex flex-col">
+  <body class="bg-[#fafaf9] text-stone-900 antialiased min-h-screen flex flex-col">
     <Header />
-    <main class="flex-1">
+    <!-- pt-16 offsets the fixed header on all non-home pages.
+         The homepage hero handles its own top spacing via min-h-screen. -->
+    <main class="flex-1 pt-16">
       <slot />
     </main>
     <Footer />
+    <!-- Orange Leather FAB — persistent across all pages -->
+    <LeatherFAB />
   </body>
 </html>

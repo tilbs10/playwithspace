@@ -1,28 +1,35 @@
 ---
 ---
 
-<footer class="border-t border-stone-200 mt-16">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-8">
-    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+<footer class="bg-emerald-950 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-16">
 
-      <div>
-        <p class="font-bold text-stone-900">Play With Space</p>
-        <p class="text-sm text-stone-500 mt-1">
-          Coaching basketball through space, movement, and awareness.
-        </p>
+    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8 mb-12">
+      <div class="flex items-center gap-2.5">
+        <div class="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
+          <svg viewBox="0 0 24 24" fill="none" class="w-4 h-4 text-white" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 3a9 9 0 0 1 0 18"  stroke-linecap="round"/>
+            <path d="M3 12h18"               stroke-linecap="round"/>
+            <path d="M12 3c2.5 2.5 4 5.6 4 9s-1.5 6.5-4 9" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="font-bold text-white">Play With Space</span>
       </div>
 
-      <nav class="flex flex-wrap gap-4 text-sm text-stone-500">
-        <a href="/blog" class="hover:text-green-800 transition-colors">Blog</a>
-        <a href="/journal" class="hover:text-green-800 transition-colors">Journal</a>
-        <a href="/about" class="hover:text-green-800 transition-colors">About</a>
-        <a href="/contact" class="hover:text-green-800 transition-colors">Contact</a>
+      <nav class="flex flex-wrap gap-x-8 gap-y-2 text-sm text-white/50">
+        <a href="/coaching" class="hover:text-white transition-colors">Coaching</a>
+        <a href="/drills"   class="hover:text-white transition-colors">Drills</a>
+        <a href="/journal"  class="hover:text-white transition-colors">Journal</a>
+        <a href="/about"    class="hover:text-white transition-colors">About</a>
+        <a href="/contact"  class="hover:text-white transition-colors">Contact</a>
       </nav>
-
     </div>
 
-    <p class="text-xs text-stone-400 mt-6">
-      © {new Date().getFullYear()} Play With Space. Built with Astro.
-    </p>
+    <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+      <p class="text-xs text-white/30">© {new Date().getFullYear()} Play With Space.</p>
+      <p class="text-xs text-white/20">Basketball coaching journal.</p>
+    </div>
+
   </div>
 </footer>
