@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6efe2"/>
+  <!-- the patient passes: sideways, backwards, probing -->
+  <g fill="none" stroke="#d97706" stroke-width="9" stroke-linecap="round" stroke-dasharray="0.1 26">
+    <path d="M 210 175 Q 130 250 155 330"/>
+    <path d="M 165 395 Q 170 470 225 505"/>
+    <path d="M 300 505 Q 360 490 395 445"/>
+    <path d="M 420 385 Q 435 320 425 275"/>
+  </g>
+  <!-- the wall of defenders, with one gap -->
+  <g>
+    <circle cx="768" cy="106" r="42" fill="#5f5546" opacity="0.16" transform="translate(7 7)"/>
+    <circle cx="768" cy="106" r="42" fill="#b3a68d"/>
+    <circle cx="775" cy="235" r="42" fill="#5f5546" opacity="0.16" transform="translate(7 7)"/>
+    <circle cx="775" cy="235" r="42" fill="#b3a68d"/>
+    <circle cx="775" cy="455" r="42" fill="#5f5546" opacity="0.16" transform="translate(7 7)"/>
+    <circle cx="775" cy="455" r="42" fill="#b3a68d"/>
+    <circle cx="768" cy="578" r="42" fill="#5f5546" opacity="0.16" transform="translate(7 7)"/>
+    <circle cx="768" cy="578" r="42" fill="#b3a68d"/>
+  </g>
+  <!-- the attackers, circulating the ball -->
+  <g>
+    <circle cx="248" cy="140" r="46" fill="#5f5546" opacity="0.16" transform="translate(8 8)"/>
+    <circle cx="248" cy="140" r="46" fill="#006437"/>
+    <circle cx="152" cy="362" r="40" fill="#5f5546" opacity="0.16" transform="translate(8 8)"/>
+    <circle cx="152" cy="362" r="40" fill="#006437"/>
+    <circle cx="262" cy="512" r="42" fill="#5f5546" opacity="0.16" transform="translate(8 8)"/>
+    <circle cx="262" cy="512" r="42" fill="#006437"/>
+    <circle cx="422" cy="232" r="46" fill="#5f5546" opacity="0.16" transform="translate(8 8)"/>
+    <circle cx="422" cy="232" r="46" fill="#006437"/>
+  </g>
+  <!-- the one-second window: the pass through the gap -->
+  <path d="M 478 250 Q 640 310 900 345" fill="none" stroke="#c2410c" opacity="0.22" stroke-width="30" stroke-linecap="round"/>
+  <path d="M 478 250 Q 640 310 900 345" fill="none" stroke="#c2410c" stroke-width="12" stroke-linecap="round" stroke-dasharray="0.1 30"/>
+  <polygon points="952,352 878,314 872,378" fill="#c2410c"/>
+  <!-- the ball, through -->
+  <circle cx="1040" cy="358" r="30" fill="#5f5546" opacity="0.16" transform="translate(7 7)"/>
+  <circle cx="1040" cy="358" r="30" fill="#c2410c"/>
+  <path d="M 1010 358 H 1070 M 1040 328 V 388" stroke="#f6efe2" stroke-width="4.5" fill="none"/>
+</svg>

@@ -4,6 +4,8 @@ date: 2026-07-03
 category: fundamentals
 tags: [spacing, world-cup-series, offence, decision-making, patience]
 type: article
+heroImage: ./images/heroes/patience.png
+heroAlt: "Dotted passes circulating between green discs on the left, then one bold orange pass breaking through the gap in a wall of stone defenders to reach the ball — flat mid-century illustration"
 ---
 
 ## Why do they keep passing it backwards?
@@ -48,7 +50,7 @@ Here's where I have to be careful, because there's a wrong version of this lesso
 
 The wrong version: "slow down, make lots of passes." Kids hear that and start passing the ball around the perimeter with no purpose — lazy swings to a teammate standing still, everyone just taking turns holding it. That's not patience. That's stalling. The defence gets to rest.
 
-The right version: every pass has a job. A swing pass makes two defenders close out and recover. A reversal makes the whole defence shift across the floor. A pass fake makes the help defender flinch towards a lane you never intended to use.
+The right version: every pass has a job. A swing pass makes two defenders close out and recover. A reversal makes the whole defence shift across the floor. A pass fake makes the help defender flinch towards a lane you never intended to use. It's the same truth as [the pass before the pass](/blog/the-pass-before-the-pass) — the pass that moves the defence is doing the scoring work early, whether or not it shows up in the stat sheet.
 
 Ask a player mid-possession: *what did that pass do to the defence?*
 
@@ -60,7 +62,7 @@ And here's the other half, the half that makes it an attacking skill: when the p
 
 **Earn the entry.**
 
-Five players spread in the 5-out spots. No dribbling. The rule: minimum four perimeter passes before anyone can drive or make an entry pass.
+Five players spread in the [5-out spots](/blog/why-spacing-is-undertaught). No dribbling. The rule: minimum four perimeter passes before anyone can drive or make an entry pass.
 
 The twist that makes it work: the count resets to zero if a pass is lazy or if a player receives the ball standing flat-footed. Every catch should come with feet ready and eyes up. Four *real* passes, not four hot potatoes.
 
@@ -77,3 +79,7 @@ The goal of moving the ball was never the passes. It's what the passes do: they 
 Watch any World Cup match this week and you'll see it — two minutes of sideways passing that looks like nothing, then one ball through a gap that existed for a single second, because eleven players spent those two minutes creating it.
 
 Patience and ruthlessness. Ask the question, ask it again, and when the defence finally gives the wrong answer — take everything.
+
+---
+
+*That one-second gap is what I call temporal space — an opening that exists as a moment, not a place. It's one of five kinds, all mapped out in [The Five Kinds of Space](/blog/the-five-kinds-of-space).*
