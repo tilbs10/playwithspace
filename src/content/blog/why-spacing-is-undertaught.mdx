@@ -6,6 +6,12 @@ tags: [spacing, basics, youth-basketball]
 type: article
 ---
 
+import CourtDiagram from '../../components/diagrams/CourtDiagram.astro';
+import Player from '../../components/diagrams/Player.astro';
+import Ball from '../../components/diagrams/Ball.astro';
+import MoveArrow from '../../components/diagrams/MoveArrow.astro';
+import Spot from '../../components/diagrams/Spot.astro';
+
 ## The thing coaches skip
 
 Watch a youth basketball practice this week. Any practice.
@@ -49,6 +55,22 @@ Mark five spots on the floor — two corners, two wings, top of the key. Five pl
 One rule: the ball must make at least four passes before anyone can drive or shoot. And after every pass, anyone who has moved must reset to a correct spot.
 
 That's it. No defence. Just practising *coming back to the right spot*.
+
+<CourtDiagram court="half" title="Half-court diagram of the 5-spot drill: five marked spots at both corners, both wings and the top of the key. Three players are on their spots; two have drifted and arrows show them returning." caption="The 5-spot drill — drifters come back to their spot">
+  <Spot x={56} y={48} />
+  <Spot x={284} y={48} />
+  <Spot x={62} y={160} />
+  <Spot x={278} y={160} />
+  <Spot x={170} y={205} />
+  <Player x={56} y={48} label="2" />
+  <Player x={284} y={48} label="3" />
+  <Player x={170} y={205} label="1" />
+  <Ball x={190} y={193} />
+  <Player x={108} y={135} label="4" />
+  <MoveArrow x1={96} y1={143} x2={72} y2={153} />
+  <Player x={236} y={115} label="5" />
+  <MoveArrow x1={246} y1={126} x2={270} y2={149} />
+</CourtDiagram>
 
 The first five minutes are chaos. Players drift, bunch up near the ball, wander into the paint.
 

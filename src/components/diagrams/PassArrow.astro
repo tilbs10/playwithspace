@@ -1,0 +1,41 @@
+---
+// A pass: dotted burnt-orange line with a smaller head.
+// Same curve behaviour as MoveArrow.
+interface Props {
+  x1: number;
+  y1: number;
+  x2: number;
+  y2: number;
+  curve?: number;
+  color?: string;
+}
+
+const { x1, y1, x2, y2, curve = 0, color = '#c2410c' } = Astro.props;
+
+const len = Math.hypot(x2 - x1, y2 - y1) || 1;
+const cx = (x1 + x2) / 2 - ((y2 - y1) / len) * curve;
+const cy = (y1 + y2) / 2 + ((x2 - x1) / len) * curve;
+
+const angle = Math.atan2(y2 - cy, x2 - cx);
+const head = 8.5;
+const spread = 0.45;
+const h1x = x2 - head * Math.cos(angle - spread);
+const h1y = y2 - head * Math.sin(angle - spread);
+const h2x = x2 - head * Math.cos(angle + spread);
+const h2y = y2 - head * Math.sin(angle + spread);
+
+const sx = x2 - (head + 1) * Math.cos(angle);
+const sy = y2 - (head + 1) * Math.sin(angle);
+---
+
+<g>
+  <path
+    d={`M ${x1} ${y1} Q ${cx} ${cy} ${sx} ${sy}`}
+    fill="none"
+    stroke={color}
+    stroke-width="2.5"
+    stroke-linecap="round"
+    stroke-dasharray="0.1 7"
+  />
+  <polygon points={`${x2},${y2} ${h1x},${h1y} ${h2x},${h2y}`} fill={color} />
+</g>

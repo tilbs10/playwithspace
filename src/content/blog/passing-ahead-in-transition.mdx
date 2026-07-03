@@ -6,6 +6,13 @@ tags: [transition, passing, fast-break, spacing, youth-basketball]
 type: article
 ---
 
+import CourtDiagram from '../../components/diagrams/CourtDiagram.astro';
+import Player from '../../components/diagrams/Player.astro';
+import Ball from '../../components/diagrams/Ball.astro';
+import MoveArrow from '../../components/diagrams/MoveArrow.astro';
+import PassArrow from '../../components/diagrams/PassArrow.astro';
+import Spot from '../../components/diagrams/Spot.astro';
+
 ## The moment most teams waste
 
 A rebound is secured. The defence is scrambling. For about two seconds, your team has a numbers advantage and the other team is in chaos.
@@ -35,6 +42,20 @@ Wide means within a metre of the sideline. Not drifting towards the middle — h
 - Creates passing angles a compressed defence can't cover
 
 The reference point for wide runners is simple: **check your inside shoulder**. The pass is coming from the middle of the floor. Running wide with your inside shoulder checked, you're always in position to receive it.
+
+<CourtDiagram court="full" title="Full-court diagram of the fast break: the rebounder passes to the outlet box at free throw line extended, the guard pushes the middle lane, two runners sprint wide along each sideline, and a pass ahead finds the top runner." caption="Phase 1 — outlet to the box, runners wide, ball ahead of the play">
+  <Player x={70} y={170} label="5" />
+  <Ball x={86} y={156} />
+  <PassArrow x1={95} y1={148} x2={140} y2={74} />
+  <Spot x={150} y={62} />
+  <Player x={150} y={62} label="1" team="highlight" />
+  <MoveArrow x1={163} y1={71} x2={325} y2={155} curve={-28} />
+  <Player x={205} y={35} label="2" />
+  <MoveArrow x1={220} y1={35} x2={455} y2={35} />
+  <Player x={190} y={305} label="3" />
+  <MoveArrow x1={205} y1={305} x2={445} y2={305} />
+  <PassArrow x1={338} y1={148} x2={450} y2={54} />
+</CourtDiagram>
 
 And here's the part that makes the whole system self-sustaining: reward the run. Every time a sprinting runner gets the ball, the habit deepens. Guards who don't pass ahead train their teammates to stop sprinting. Guards who do pass ahead train their teammates to run harder every single time.
 

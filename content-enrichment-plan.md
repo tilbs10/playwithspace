@@ -151,9 +151,14 @@ related links, for first-time visitors.
 - [x] Capture template updated with "links to include" prompt
 
 **Phase 2 — The diagram system (one to two sessions)**
-- [ ] Build the court SVG template / component with brand colours,
-      supporting both half-court and full-court layouts
-- [ ] First two diagrams, in the two most spatial posts:
+- [x] Build the court SVG template / component with brand colours,
+      supporting both half-court and full-court layouts — built as
+      `CourtDiagram.astro` + `Player` / `Ball` / `MoveArrow` /
+      `PassArrow` / `Spot` in `src/components/diagrams/`, styled
+      mid-century modern: warm cream ground, taupe linework, flat
+      colour blocks, offset print-shadows, dotted pass lines and
+      mustard spot rings. Posts that use diagrams are `.mdx`.
+- [x] First two diagrams, in the two most spatial posts:
       the 5-spot drill (spacing post) and the outlet + wide lanes
       (transition post)
 - [ ] Refine the visual style until it feels like the site
