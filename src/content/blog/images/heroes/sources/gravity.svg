@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6efe2"/>
+  <!-- the threat: one huge disc -->
+  <circle cx="836" cy="327" r="172" fill="#5f5546" opacity="0.16"/>
+  <circle cx="824" cy="315" r="172" fill="#c2410c"/>
+  <path d="M 652 315 H 996 M 824 143 V 487" stroke="#f6efe2" stroke-width="7" fill="none"/>
+  <!-- orbit hint -->
+  <circle cx="824" cy="315" r="268" fill="none" stroke="#d97706" stroke-width="6" stroke-dasharray="0.1 26" stroke-linecap="round"/>
+  <!-- defenders pulled toward it -->
+  <g>
+    <circle cx="196" cy="148" r="40" fill="#5f5546" opacity="0.16" transform="translate(7 7)"/>
+    <circle cx="196" cy="148" r="40" fill="#b3a68d"/>
+    <path d="M 252 168 L 372 210" stroke="#8a7a63" stroke-width="8" stroke-linecap="round" stroke-dasharray="0.1 22"/>
+    <polygon points="406,222 344,182 328,240" fill="#8a7a63"/>
+  </g>
+  <g>
+    <circle cx="238" cy="478" r="46" fill="#5f5546" opacity="0.16" transform="translate(7 7)"/>
+    <circle cx="238" cy="478" r="46" fill="#b3a68d"/>
+    <path d="M 300 458 L 428 416" stroke="#8a7a63" stroke-width="8" stroke-linecap="round" stroke-dasharray="0.1 22"/>
+    <polygon points="464,404 400,382 418,444" fill="#8a7a63"/>
+  </g>
+  <!-- the teammate left open -->
+  <circle cx="152" cy="312" r="52" fill="#5f5546" opacity="0.16" transform="translate(8 8)"/>
+  <circle cx="152" cy="312" r="52" fill="#006437"/>
+  <circle cx="152" cy="312" r="78" fill="none" stroke="#d97706" stroke-width="7" stroke-dasharray="0.1 20" stroke-linecap="round"/>
+</svg>

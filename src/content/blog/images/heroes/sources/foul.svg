@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6efe2"/>
+  <!-- momentum building -->
+  <path d="M 100 500 L 340 330 L 520 420 L 740 250"
+        fill="none" stroke="#5f5546" opacity="0.14" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" transform="translate(8 8)"/>
+  <path d="M 100 500 L 340 330 L 520 420 L 740 250"
+        fill="none" stroke="#006437" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- the whistle: everything stops -->
+  <rect x="806" y="150" width="52" height="330" rx="26" fill="#5f5546" opacity="0.16" transform="translate(8 8)"/>
+  <rect x="806" y="150" width="52" height="330" rx="26" fill="#d97706"/>
+  <!-- what the run would have been -->
+  <path d="M 910 220 L 1120 130" fill="none" stroke="#8a7a63" stroke-width="10" stroke-linecap="round" stroke-dasharray="0.1 28" opacity="0.6"/>
+  <!-- the ball, dead -->
+  <circle cx="676" cy="292" r="30" fill="#5f5546" opacity="0.16" transform="translate(7 7)"/>
+  <circle cx="676" cy="292" r="30" fill="#c2410c"/>
+  <path d="M 646 292 H 706 M 676 262 V 322" stroke="#f6efe2" stroke-width="4.5" fill="none"/>
+</svg>

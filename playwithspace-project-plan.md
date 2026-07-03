@@ -102,6 +102,43 @@ Standard long-form post. Used for evergreen content that
 doesn't come from a specific session or game.
 ```
 
+### Quick Take
+```markdown
+---
+title: "The Pass Before the Pass"
+date: 2026-06-25
+category: fundamentals
+tags: [passing, decision-making]
+type: quick-take
+---
+
+One idea, 250-350 words, no headings. Open with the sharpest
+line you have, make the single point, land the ending. If it
+needs a second section, it's an article.
+```
+
+### Deep Dive
+```markdown
+---
+title: "The Five Kinds of Space: A Deep Dive"
+date: 2026-07-01
+category: fundamentals
+tags: [spacing, deep-dive]
+type: deep-dive
+---
+
+Long-form exploration (1,000+ words) of one topic taken apart
+properly. Use --- dividers between major sections, link back to
+related articles, and end each section with a practical
+"coach it by" takeaway so the depth stays usable.
+```
+
+**Pacing notes (all types):** hook in the first two lines — an image
+or a tension, never a topic statement. Vary the rhythm: a long
+build, then a short punch. One-line paragraphs are beats — use
+them at turning points, not everywhere. End sections on the
+strongest sentence, then stop.
+
 ---
 
 ## Project File Structure (Astro)

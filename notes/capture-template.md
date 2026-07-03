@@ -41,6 +41,12 @@ No names needed in the published post.*
 *Anything a player said that stuck with you.*
 -
 
+## Links To Include
+*Which existing posts does this connect to? Name 1-3. If it touches spacing,
+gravity, rhythm or transition, link the matching article — and if it deepens
+one of the five kinds of space, link the deep dive.*
+-
+
 ---
 
 *When you're ready to write the post — paste this into VS Code at the bottom of a new .md file and ask Claude to turn it into a post using the training or game template.*

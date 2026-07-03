@@ -14,11 +14,23 @@ export async function getStaticPaths() {
 const { post, allPosts } = Astro.props;
 const { Content } = await render(post);
 
-// Related posts: same category, excluding current post, max 3
+// Related posts: ranked by shared tags (weighted), then same category,
+// then recency. Tag overlap gives far better matches than category alone,
+// since most posts share a category.
+const currentTags = post.data.tags ?? [];
 const related = allPosts
-  .filter(p => p.id !== post.id && p.data.category === post.data.category)
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 3);
+  .filter(p => p.id !== post.id)
+  .map(p => {
+    const sharedTags = (p.data.tags ?? []).filter(t => currentTags.includes(t)).length;
+    const sameCategory = p.data.category === post.data.category ? 1 : 0;
+    return { post: p, score: sharedTags * 2 + sameCategory };
+  })
+  .filter(({ score }) => score > 0)
+  .sort((a, b) =>
+    b.score - a.score || b.post.data.date.valueOf() - a.post.data.date.valueOf()
+  )
+  .slice(0, 3)
+  .map(({ post: p }) => p);
 ---
 
 <BlogPost
@@ -29,6 +41,8 @@ const related = allPosts
   result={post.data.result}
   focus={post.data.focus}
   tags={post.data.tags}
+  heroImage={post.data.heroImage}
+  heroAlt={post.data.heroAlt}
 >
   <Content />
 
@@ -48,6 +62,8 @@ const related = allPosts
             slug={p.id}
             result={p.data.result}
             focus={p.data.focus}
+            heroImage={p.data.heroImage}
+            heroAlt={p.data.heroAlt}
           />
         ))}
       </div>

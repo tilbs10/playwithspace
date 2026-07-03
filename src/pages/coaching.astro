@@ -3,10 +3,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
 import { getCollection } from 'astro:content';
 
-// Coaching page shows all article-type posts — coaching concepts, fundamentals,
-// mindset pieces. Game reviews and training logs live in the Journal.
+// Coaching page shows written pieces — articles, quick takes, deep dives.
+// Game reviews and training logs live in the Journal.
 const allPosts = await getCollection('blog', ({ data }) =>
-  !data.draft && data.type === 'article'
+  !data.draft && ['article', 'quick-take', 'deep-dive'].includes(data.type)
 );
 
 const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
@@ -55,6 +55,8 @@ const categoryLabels: Record<string, string> = {
               slug={post.id}
               result={post.data.result}
               focus={post.data.focus}
+              heroImage={post.data.heroImage}
+              heroAlt={post.data.heroAlt}
             />
           ))}
         </div>

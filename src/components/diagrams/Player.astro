@@ -1,0 +1,35 @@
+---
+// A player marker: flat MCM disc with an offset print-shadow.
+// team: offence (court green) | defence (warm stone) | highlight (mustard)
+interface Props {
+  x: number;
+  y: number;
+  label?: string;
+  team?: 'offence' | 'defence' | 'highlight';
+}
+
+const { x, y, label, team = 'offence' } = Astro.props;
+
+const fills: Record<string, string> = {
+  offence:   '#006437',
+  defence:   '#b3a68d',
+  highlight: '#d97706',
+};
+---
+
+<g>
+  <circle cx={x + 3} cy={y + 3} r="11" fill="#5f5546" opacity="0.18" />
+  <circle cx={x} cy={y} r="11" fill={fills[team]} />
+  {label && (
+    <text
+      x={x}
+      y={y}
+      text-anchor="middle"
+      dominant-baseline="central"
+      font-size="10.5"
+      font-weight="700"
+      fill="#f6efe2"
+      font-family="'Plus Jakarta Sans', ui-sans-serif, sans-serif"
+    >{label}</text>
+  )}
+</g>

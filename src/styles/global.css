@@ -97,3 +97,29 @@ html {
   color: #57534e;
   margin: 1.5rem 0;
 }
+
+/* Images inside post bodies — diagrams, photos */
+.prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  border: 1px solid #e7e5e4;
+}
+
+.prose figure {
+  margin: 2rem 0;
+}
+
+.prose figure img {
+  margin: 0 auto;
+}
+
+.prose figcaption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #78716c;
+  margin-top: 0.6rem;
+  line-height: 1.5;
+}
