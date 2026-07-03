@@ -65,3 +65,7 @@ When the gravity player stays aggressive and the team is reading off them, you s
 The defence faces impossible choices. Commit to the threat — leave someone open. Stay home on shooters — let the threat keep attacking. There's no right answer, and that's the point.
 
 That's when the game gets easy. Not because everyone is equally dangerous, but because one player's threat is doing the work of creating chances for all five.
+
+---
+
+*Gravity creates what I call borrowed space — space paid for by a player who may never touch the ball. It's one of five kinds, all mapped out in [The Five Kinds of Space](/blog/the-five-kinds-of-space).*

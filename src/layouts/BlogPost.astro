@@ -1,6 +1,8 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Newsletter from '../components/Newsletter.astro';
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 
 interface Props {
   title: string;
@@ -10,9 +12,11 @@ interface Props {
   result?: string;
   focus?: string;
   tags?: string[];
+  heroImage?: ImageMetadata;
+  heroAlt?: string;
 }
 
-const { title, date, category, type, result, focus, tags } = Astro.props;
+const { title, date, category, type, result, focus, tags, heroImage, heroAlt } = Astro.props;
 
 const categoryColors: Record<string, string> = {
   fundamentals: 'bg-blue-50 text-blue-700',
@@ -23,6 +27,8 @@ const categoryColors: Record<string, string> = {
 
 const typeLabel: Record<string, string> = {
   article: 'Article',
+  'quick-take': 'Quick Take',
+  'deep-dive': 'Deep Dive',
   'post-game': 'Game Review',
   'post-training': 'Training Log',
 };
@@ -34,7 +40,12 @@ const formattedDate = date.toLocaleDateString('en-AU', {
 });
 ---
 
-<BaseLayout title={title} description={`${typeLabel[type] ?? ''} — ${title}`} type="article">
+<BaseLayout
+  title={title}
+  description={`${typeLabel[type] ?? ''} — ${title}`}
+  type="article"
+  image={heroImage?.src}
+>
   <article class="max-w-2xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
 
     <a href="/blog" class="text-sm text-stone-400 hover:text-green-800 transition-colors mb-8 inline-block">
@@ -60,6 +71,16 @@ const formattedDate = date.toLocaleDateString('en-AU', {
     )}
 
     <p class="text-sm text-stone-400 mb-10">{formattedDate}</p>
+
+    {heroImage && (
+      <Image
+        src={heroImage}
+        alt={heroAlt ?? ''}
+        widths={[640, 960, 1280]}
+        sizes="(max-width: 672px) 100vw, 672px"
+        class="w-full rounded-2xl border border-stone-200 mb-10"
+      />
+    )}
 
     <div class="prose">
       <slot />

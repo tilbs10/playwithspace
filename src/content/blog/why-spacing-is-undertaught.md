@@ -63,3 +63,7 @@ Spacing is the beginning of basketball IQ. Once a player understands it intuitiv
 You can't teach those things in isolation. But get the spacing right, and the rest of the game starts to organise itself.
 
 That's why we start here.
+
+---
+
+*Where you stand is only one kind of space — the structural kind. There are four others, and they're all taken apart in [The Five Kinds of Space](/blog/the-five-kinds-of-space).*

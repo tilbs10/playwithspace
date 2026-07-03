@@ -57,9 +57,12 @@ clean diagram-led identity rather than generic sports photography.
 
 Build diagrams as **SVG in code**, not exported from a design tool:
 
-- One reusable `CourtDiagram.astro` component (or a shared SVG template):
-  half-court outline in stone, players as circles, ball as a filled dot,
-  movement as solid arrows, passes as dashed arrows.
+- One reusable `CourtDiagram.astro` component (or a shared SVG template)
+  with a `court="half" | "full"` option: court outline in stone, players
+  as circles, ball as a filled dot, movement as solid arrows, passes as
+  dashed arrows. Half court for spacing spots, sets and most drills;
+  full court for transition, press break and anything that crosses
+  halfway — the transition posts need the full floor to make sense.
 - Brand colours throughout — court lines in stone-300, offence in the
   site green `#006437`, defence in stone-400, the key moment in amber.
 - Consistent style across every post = the diagrams become part of the
@@ -140,15 +143,16 @@ related links, for first-time visitors.
 
 ## Phased rollout
 
-**Phase 1 — Foundations (one session, no new assets needed)**
-- [ ] Tag-overlap related-posts scoring
-- [ ] `heroImage`/`heroAlt` in schema + layouts + OG meta with fallback
-- [ ] Figure/caption typography styles
-- [ ] Hub-and-spoke return links added to the four existing articles
-- [ ] Capture template updated with "links to include" prompt
+**Phase 1 — Foundations (one session, no new assets needed)** ✅ done
+- [x] Tag-overlap related-posts scoring
+- [x] `heroImage`/`heroAlt` in schema + layouts + OG meta with fallback
+- [x] Figure/caption typography styles
+- [x] Hub-and-spoke return links added to the four existing articles
+- [x] Capture template updated with "links to include" prompt
 
 **Phase 2 — The diagram system (one to two sessions)**
-- [ ] Build the court SVG template / component with brand colours
+- [ ] Build the court SVG template / component with brand colours,
+      supporting both half-court and full-court layouts
 - [ ] First two diagrams, in the two most spatial posts:
       the 5-spot drill (spacing post) and the outlet + wide lanes
       (transition post)

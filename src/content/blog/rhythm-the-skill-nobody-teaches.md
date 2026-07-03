@@ -60,3 +60,7 @@ Rhythm is a skill. It can be taught, built through repetition, and lost through 
 When your team's ball movement looks slow, when your shooter looks hesitant, when your defence is always a fraction late — the problem is often rhythm, not effort.
 
 Teach the timing. The rest starts to organise itself.
+
+---
+
+*Timing is how players reach temporal space — the openings that exist for half a second and then close. How that fits with the other kinds of space is in [The Five Kinds of Space](/blog/the-five-kinds-of-space).*

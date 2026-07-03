@@ -82,3 +82,7 @@ Fast breaks aren't complicated. They *feel* complicated because the decisions ha
 What makes transition basketball work isn't athleticism. It's recognition, spacing, and guards willing to pass ahead.
 
 Pass ahead. Reward the runners. The rest follows.
+
+---
+
+*Transition space is the biggest and cheapest space in the game — and the fastest to expire. Where it sits alongside the other four kinds is in [The Five Kinds of Space](/blog/the-five-kinds-of-space).*
