@@ -8,7 +8,7 @@ const blog = defineCollection({
     date: z.coerce.date(),
     category: z.enum(['fundamentals', 'coaching', 'mindset', 'stories']),
     tags: z.array(z.string()).optional(),
-    type: z.enum(['article', 'post-game', 'post-training']).default('article'),
+    type: z.enum(['article', 'quick-take', 'deep-dive', 'post-game', 'post-training']).default('article'),
     // post-game fields
     result: z.string().optional(),
     // post-training fields

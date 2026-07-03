@@ -11,36 +11,44 @@ result: "W"
 
 We came in with a clear advantage in transition. The game plan was simple: defend well, rebound, push the pace. When we're moving, we're dangerous. When the game slows down, we lose our edge.
 
-For most of the first three quarters, we couldn't access that game plan at all.
+For most of three quarters, we couldn't access that game plan at all.
+
+Not because the opposition took it away. Because we did.
 
 ## What I saw
 
-Fatigue was showing early. And when players get tired, they reach. They gamble. They stop moving their feet and start using their hands.
+Fatigue showed early. And tired players reach. They gamble. They stop moving their feet and start using their hands.
 
-The fouls mounted. Nothing dramatic — no flagrant calls, no arguments. Just a steady drip of contact fouls that turned every promising defensive stop into a dead ball. The whistle blew, play stopped, the opposition walked to the line. Whatever momentum we'd built evaporated.
+The fouls mounted. Nothing dramatic — no flagrant calls, no arguments. Just a steady drip of contact fouls, each one turning a promising defensive stop into a dead ball. Whistle. Stop. Free throws. Whatever momentum we'd built, gone again.
 
-By the time we were deep into team fouls, the back end of quarters became a free throw parade. We couldn't get into any consistent flow. The fast break opportunities we'd built our game plan around simply didn't exist — you can't run in transition from a free throw.
+By the time we were deep into team fouls, the back end of every quarter was a free throw parade. The fast break opportunities we'd built our whole game plan around simply didn't exist.
+
+You can't run in transition from a free throw.
 
 The tempo wasn't theirs. It wasn't ours. It belonged to the referee.
 
 ## The moment
 
-The fourth quarter was different. We switched from zone to man-to-man, the game opened up, and suddenly we were moving again. Real defensive pressure, contested shots, live rebounds — and from those, actual fast breaks. The game we'd prepared for finally arrived.
+The fourth quarter was different. We switched from zone to man-to-man and the game opened up. Real defensive pressure, contested shots, live rebounds — and from those, actual fast breaks. The game we'd prepared for finally arrived, one quarter before it was too late.
 
-The contrast made the problem obvious. The issue in the first three quarters wasn't effort. It was discipline.
+The contrast made the problem obvious. The first three quarters weren't an effort problem.
+
+They were a discipline problem.
 
 ## What it teaches
 
 There's a trade-off coaches don't talk about enough: **a contested shot that goes in costs you two points. A foul costs you two points and the possession.**
 
-But the real cost isn't the free throws — it's the stop. Every foul kills the tempo. It resets both teams. It lets a tired defence recover. It hands the opposition a controlled, static situation rather than forcing them to deal with your pace.
+And the real cost isn't even the free throws. It's the stop. Every foul kills the tempo. It resets both teams. It lets a tired defence recover. It hands the opposition a controlled, static situation instead of forcing them to deal with your pace.
 
-Overly aggressive defence feels productive. Players feel like they're competing. But if it's turning every possession into a dead ball, it's actually giving the game away — quarter by quarter, foul by foul, until you're in the bonus and an entire aspect of your advantage is gone.
+Overly aggressive defence *feels* productive. Players feel like they're competing. But if it's turning every possession into a dead ball, it's giving the game away — quarter by quarter, foul by foul, until you're in the bonus and an entire dimension of your advantage is gone.
 
-Good defensive pressure means making the shot hard and living with the result. That's the discipline.
+Good defensive pressure means making the shot hard and living with the result.
+
+That's the discipline.
 
 ## Next session focus
 
-Defensive footwork under fatigue. We'll run defensive slides and close-outs at the end of sessions — when players are already tired — so they have the muscle memory to stay in front without reaching.
+Defensive footwork under fatigue. We'll run slides and close-outs at the *end* of sessions — when legs are already gone — so players build the muscle memory to stay in front without reaching.
 
-The message: discipline isn't about playing softer. It's about staying in the game.
+The message: discipline isn't playing softer. It's staying in the game.
