@@ -4,6 +4,8 @@ date: 2026-06-18
 category: fundamentals
 tags: [offence, spacing, teamwork, decision-making]
 type: article
+heroImage: ./images/heroes/gravity.png
+heroAlt: "A huge burnt-orange ball ringed by a dotted orbit pulls two stone defenders towards it, leaving a green player open with their own dotted ring — flat mid-century illustration"
 ---
 
 ## When one player pulls the defence

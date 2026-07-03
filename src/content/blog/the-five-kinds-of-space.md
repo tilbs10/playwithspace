@@ -4,6 +4,8 @@ date: 2026-07-01
 category: fundamentals
 tags: [spacing, gravity, transition, rhythm, deep-dive, youth-basketball]
 type: deep-dive
+heroImage: ./images/heroes/five-kinds.png
+heroAlt: "Five cream panels side by side, each holding one small motif: a dotted ring, a cutting arrow, a big and small disc, a half-open dotted circle, and three speed lines — flat mid-century illustration"
 ---
 
 ## One word, five different things

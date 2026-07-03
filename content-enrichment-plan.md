@@ -161,12 +161,17 @@ related links, for first-time visitors.
 - [x] First two diagrams, in the two most spatial posts:
       the 5-spot drill (spacing post) and the outlet + wide lanes
       (transition post)
-- [ ] Refine the visual style until it feels like the site
+- [x] Refine the visual style until it feels like the site —
+      mid-century modern direction approved from rendered screenshots
 
 **Phase 3 — Full coverage (spread over normal writing weeks)**
-- [ ] Hero image for every existing post (diagram crops work fine)
-- [ ] PostCard thumbnails on blog + coaching listings
-- [ ] Numbered sequence diagrams for the transition deep-dive phases
+- [x] Hero image for every existing post — seven MCM compositions,
+      one per post, hand-built as SVG and rendered to 1200x630 PNG
+      (social-card safe). Sources kept in
+      `src/content/blog/images/heroes/sources/` for future edits.
+- [x] PostCard thumbnails on blog + coaching listings + related posts
+- [x] Phase 2 trailer diagram (strong side cut + lap post-up) added
+      to the transition post
 
 **Phase 4 — Ongoing editorial rules**
 - Every new deep dive ships with 2+ diagrams and 3+ inline links

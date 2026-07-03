@@ -4,6 +4,8 @@ date: 2026-06-25
 category: fundamentals
 tags: [passing, decision-making, spacing]
 type: quick-take
+heroImage: ./images/heroes/pass-before.png
+heroAlt: "Three green discs connected by two passes: the first pass highlighted with a warm mustard glow, the second plain, the ball arriving for the shot — flat mid-century illustration"
 ---
 
 The assist gets the stat. The pass before the assist won the possession.

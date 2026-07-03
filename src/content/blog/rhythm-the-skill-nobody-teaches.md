@@ -4,6 +4,8 @@ date: 2026-04-12
 category: fundamentals
 tags: [rhythm, timing, youth-basketball, fundamentals]
 type: article
+heroImage: ./images/heroes/rhythm.png
+heroAlt: "A ball bouncing along a baseline in shrinking arcs above mustard metronome ticks, each bounce smaller than the last — flat mid-century illustration"
 ---
 
 ## The skill that makes everything else look easy

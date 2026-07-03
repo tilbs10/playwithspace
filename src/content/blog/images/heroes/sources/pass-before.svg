@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6efe2"/>
+  <!-- the pass that gets forgotten: bold, celebrated here -->
+  <path d="M 268 462 Q 380 240 552 186" fill="none" stroke="#d97706" opacity="0.25" stroke-width="34" stroke-linecap="round"/>
+  <path d="M 268 462 Q 380 240 552 186" fill="none" stroke="#d97706" stroke-width="12" stroke-linecap="round" stroke-dasharray="0.1 32"/>
+  <polygon points="596,174 516,158 534,222" fill="#d97706"/>
+  <!-- the pass that gets the assist -->
+  <path d="M 704 200 Q 850 260 952 372" fill="none" stroke="#c2410c" stroke-width="10" stroke-linecap="round" stroke-dasharray="0.1 28"/>
+  <polygon points="982,408 942,342 902,392" fill="#c2410c"/>
+  <!-- three players -->
+  <g>
+    <circle cx="216" cy="524" r="56" fill="#5f5546" opacity="0.16" transform="translate(8 8)"/>
+    <circle cx="216" cy="524" r="56" fill="#006437"/>
+  </g>
+  <g>
+    <circle cx="648" cy="152" r="56" fill="#5f5546" opacity="0.16" transform="translate(8 8)"/>
+    <circle cx="648" cy="152" r="56" fill="#006437"/>
+  </g>
+  <g>
+    <circle cx="1022" cy="464" r="56" fill="#5f5546" opacity="0.16" transform="translate(8 8)"/>
+    <circle cx="1022" cy="464" r="56" fill="#006437"/>
+  </g>
+  <!-- ball arriving for the shot -->
+  <circle cx="938" cy="330" r="28" fill="#5f5546" opacity="0.16" transform="translate(6 6)"/>
+  <circle cx="938" cy="330" r="28" fill="#c2410c"/>
+  <path d="M 910 330 H 966 M 938 302 V 358" stroke="#f6efe2" stroke-width="4.5" fill="none"/>
+</svg>

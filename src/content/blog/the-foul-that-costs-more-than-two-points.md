@@ -5,6 +5,8 @@ category: coaching
 tags: [defense, fouling, discipline, tempo, youth-basketball]
 type: post-game
 result: "W"
+heroImage: ./images/heroes/foul.png
+heroAlt: "A thick green zigzag line building momentum towards the right is stopped dead by a mustard bar, with only a faint dotted line continuing beyond — flat mid-century illustration"
 ---
 
 ## The setup

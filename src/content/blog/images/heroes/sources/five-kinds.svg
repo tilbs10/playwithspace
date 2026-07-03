@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6efe2"/>
+  <!-- five panels, five kinds of space -->
+  <rect x="240" y="0" width="240" height="630" fill="#f0e6cf"/>
+  <rect x="720" y="0" width="240" height="630" fill="#f0e6cf"/>
+  <g stroke="#e0d4b6" stroke-width="4">
+    <line x1="240" y1="0" x2="240" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/>
+  </g>
+  <!-- 1 structural: the spot -->
+  <circle cx="120" cy="315" r="62" fill="none" stroke="#d97706" stroke-width="8" stroke-dasharray="0.1 21" stroke-linecap="round"/>
+  <circle cx="120" cy="315" r="24" fill="#006437"/>
+  <!-- 2 created: the cut -->
+  <path d="M 300 400 L 396 258" stroke="#006437" stroke-width="14" stroke-linecap="round"/>
+  <polygon points="422,220 356,242 402,286" fill="#006437"/>
+  <!-- 3 borrowed: the big threat, the small beneficiary -->
+  <circle cx="828" cy="348" r="66" fill="#c2410c" transform="translate(-228 -60)"/>
+  <circle cx="672" cy="408" r="26" fill="#006437"/>
+  <!-- 4 temporal: the half-second window -->
+  <path d="M 840 250 A 66 66 0 1 1 776 334" fill="none" stroke="#8a7a63" stroke-width="9" stroke-linecap="round" stroke-dasharray="0.1 23"/>
+  <circle cx="776" cy="334" r="18" fill="#d97706"/>
+  <!-- 5 transition: the open floor, at speed -->
+  <g stroke="#006437" stroke-width="12" stroke-linecap="round">
+    <line x1="1000" y1="265" x2="1130" y2="265"/>
+    <line x1="1016" y1="315" x2="1146" y2="315"/>
+    <line x1="1000" y1="365" x2="1100" y2="365"/>
+  </g>
+  <circle cx="1146" cy="418" r="20" fill="#c2410c"/>
+</svg>
