@@ -47,6 +47,13 @@ gravity, rhythm or transition, link the matching article — and if it deepens
 one of the five kinds of space, link the deep dive.*
 -
 
+## Style Note — Pronouns
+*Switch up the genders in hypothetical players and examples — she in one,
+he in the next, they in another — so the evergreen posts read as being about
+all kids, not one team. Session and game posts about the actual squad can
+stay she/her, because there it's just accurate. Check before publishing:
+if every example in a post is the same gender, vary it.*
+
 ---
 
 *When you're ready to write the post — paste this into VS Code at the bottom of a new .md file and ask Claude to turn it into a post using the training or game template.*
