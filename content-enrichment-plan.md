@@ -179,6 +179,9 @@ related links, for first-time visitors.
 - Quick takes ship bare, fast, text-only
 - Session/game posts may use whiteboard or empty-gym photos — never
   identifiable players
+- Rotate pronouns in hypothetical players and examples (she/he/they across
+  a post, not one gender throughout) — evergreen posts are for every kid.
+  Posts about the actual squad stay she/her
 
 ---
 
