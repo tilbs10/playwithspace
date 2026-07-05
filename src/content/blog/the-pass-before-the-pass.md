@@ -25,3 +25,7 @@ The fix costs you nothing: **praise the pass before the pass, out loud, by name*
 Say it in training. Say it from the bench. Say it in the huddle when the shooter is getting the high-fives. You're not being generous — you're being accurate. The swing pass *did* create the shot.
 
 Players repeat what gets noticed. Notice the right things.
+
+---
+
+*Why the unrewarded pass matters is a whole possession-level idea — the full version is in [Patience Is an Attacking Skill](/blog/patience-is-an-attacking-skill).*
