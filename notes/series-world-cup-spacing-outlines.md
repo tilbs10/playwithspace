@@ -13,7 +13,11 @@ the player with the ball. It's about the other players and where they are.
 The final post pays that off: great players shine *because* the team's
 spacing lets them.
 
-**Status:** post 2 (patience) published · post 3 (timed runs) published · posts 1, 4, 5, 6 to write
+**Status:** post 2 (patience) published · post 3 (timed runs) published ·
+post 6 (closer, re-anchored on Spain's actual World Cup win + Rodri's
+Golden Ball) published as "Great Players Don't Create Space Alone" ·
+posts 1, 4, 5 still to write. Note: tournament is now over — remaining
+posts should reference Spain's win rather than "any match this week".
 **Category:** fundamentals (post 6 could sit in mindset)
 **Cadence:** 1–2 per week while the tournament runs — timely, then evergreen.
 **Note on examples:** reference patterns, not specific match results — keeps
