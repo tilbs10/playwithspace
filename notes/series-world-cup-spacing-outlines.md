@@ -14,10 +14,14 @@ The final post pays that off: great players shine *because* the team's
 spacing lets them.
 
 **Status:** post 2 (patience) published · post 3 (timed runs) published ·
+post 4 (passing angles) published as "Get Off the Straight Line" — first
+post in the series to use the MDX court-diagram system (two half-court
+diagrams: dead-line-vs-relocation, and the broken-triangle rondo) ·
 post 6 (closer, re-anchored on Spain's actual World Cup win + Rodri's
 Golden Ball) published as "Great Players Don't Create Space Alone" ·
-posts 1, 4, 5 still to write. Note: tournament is now over — remaining
-posts should reference Spain's win rather than "any match this week".
+posts 1 (opener) and 5 (switching sides) still to write. Note:
+tournament is now over — remaining posts should reference Spain's win
+rather than "any match this week".
 **Category:** fundamentals (post 6 could sit in mindset)
 **Cadence:** 1–2 per week while the tournament runs — timely, then evergreen.
 **Note on examples:** reference patterns, not specific match results — keeps
