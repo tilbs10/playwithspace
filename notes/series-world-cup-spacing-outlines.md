@@ -17,9 +17,13 @@ spacing lets them.
 post 4 (passing angles) published as "Get Off the Straight Line" — first
 post in the series to use the MDX court-diagram system (two half-court
 diagrams: dead-line-vs-relocation, and the broken-triangle rondo) ·
+post 5 (switching sides) published as "The Ball Moves Faster Than the
+Defence", with two half-court diagrams (the overload + skip pass, and
+the three-pass reversal chain) ·
 post 6 (closer, re-anchored on Spain's actual World Cup win + Rodri's
 Golden Ball) published as "Great Players Don't Create Space Alone" ·
-posts 1 (opener) and 5 (switching sides) still to write. Note:
+only post 1 (the opener) still to write — and it now needs to be a
+retrospective rather than a "the tournament is on" curtain-raiser. Note:
 tournament is now over — remaining posts should reference Spain's win
 rather than "any match this week".
 **Category:** fundamentals (post 6 could sit in mindset)
