@@ -1,0 +1,126 @@
+---
+title: "Same Game, Bigger Pitch: What a World Cup Taught Us About Spacing"
+date: 2026-07-24
+category: fundamentals
+tags: [spacing, world-cup-series, deep-dive, basketball-iq, youth-basketball]
+type: deep-dive
+heroImage: ./images/heroes/same-game.png
+heroAlt: "A large soccer pitch on the left and a smaller basketball court on the right, both holding four green players in the same spread shape, with one continuous dotted orange pass travelling from the pitch across to the court — flat mid-century illustration"
+---
+
+import CourtDiagram from '../../components/diagrams/CourtDiagram.astro';
+import Player from '../../components/diagrams/Player.astro';
+import Ball from '../../components/diagrams/Ball.astro';
+import MoveArrow from '../../components/diagrams/MoveArrow.astro';
+import PassArrow from '../../components/diagrams/PassArrow.astro';
+import Spot from '../../components/diagrams/Spot.astro';
+
+## I spent a month watching the wrong sport
+
+The World Cup is finished. Spain won it, and they won it by keeping the ball better than anyone else on earth — passing, moving, adjusting, forcing everybody else to chase them for ninety minutes at a time.
+
+I coach basketball. I watched almost all of it anyway, and I took more notes on spacing during that month than in any month of watching basketball I can remember.
+
+This post is the front door to everything I wrote during the tournament. If you've never seen the site before, start here — this is the map. If you've read the individual posts, this is the thread that ties them together, now that we know how the story ended.
+
+## Same problem, bigger pitch
+
+Soccer and basketball look nothing alike. One has nets you catch the ball in, one has a net you throw it through. One has ninety minutes of running, one has bursts and whistles.
+
+Underneath, they're the same category of game: **invasion sports**. Two teams, one object, one shared space. Your team is trying to move the object into their territory; they're trying to stop you and go the other way. Everything else — the rules, the scoring, the shape of the ball — is decoration on top of one problem:
+
+> There are more players than there is useful space. Whoever uses the space better wins.
+
+That's it. That's the whole thing. And it means a player who genuinely understands spacing in one invasion sport has already learned most of what transfers to the others. Basketball IQ isn't really basketball-specific. It's **spatial literacy** — reading where the space is, where it's about to be, and who it belongs to.
+
+Here's why soccer is the better teacher for this, especially with kids: **it happens in slow motion**. The pitch is enormous and goals are rare, so a single attacking sequence can last thirty seconds and be visible the whole way through. Basketball compresses the same ideas into a five-second burst inside a 24-second shot clock. The concepts are identical; soccer just runs them at a speed a nine-year-old can actually watch.
+
+## What it looks like when nobody's doing it
+
+Before the good version, the honest one. This is what a youth basketball possession looks like by default — not because the kids are lazy, but because nobody has taught them that where they stand is a decision.
+
+<CourtDiagram court="half" title="Half-court diagram showing bad spacing. All five green attackers are bunched into a small area on the right side of the floor near the ball, with four stone defenders packed tightly around them. Three dotted mustard rings on the left side and top of the key mark good positions that nobody is occupying." caption="Five players, one corner of the floor — and half the court standing empty">
+  <Player x={272} y={180} label="1" />
+  <Ball x={288} y={170} />
+  <Player x={240} y={146} label="2" />
+  <Player x={294} y={132} label="3" />
+  <Player x={232} y={208} label="4" />
+  <Player x={278} y={234} label="5" />
+  <Player x={250} y={118} label="x" team="defence" />
+  <Player x={212} y={172} label="x" team="defence" />
+  <Player x={276} y={100} label="x" team="defence" />
+  <Player x={238} y={248} label="x" team="defence" />
+  <Spot x={40} y={70} />
+  <Spot x={64} y={186} />
+  <Spot x={162} y={240} />
+</CourtDiagram>
+
+Everybody has run to the ball. There's no angle to pass to anyone, because every teammate is behind a defender who is already standing between them and the ball. Four defenders are guarding five attackers and still have bodies to spare. And an entire half of the court — the three marked spots — is being donated to the other team.
+
+This is the situation every idea in this series is trying to solve.
+
+## The five things the tournament kept showing me
+
+Every one of these appeared in almost every match, and each one has a full post behind it.
+
+**1. Patience is an attacking skill.** The most confusing thing for new soccer watchers is the backwards pass. The reason it exists: the first forward option is usually the trap, because the defence is set and waiting for exactly that ball. So good teams pass sideways and probe until the defence makes a mistake. The youth basketball parallel is exact — the most common turnover in the game is the rushed first pass into traffic. → [Patience Is an Attacking Skill](/blog/patience-is-an-attacking-skill)
+
+**2. The run starts before the pass.** Watch a striker sprint into a patch of grass that's empty at the moment the ball is played. The pass goes where they *will be*. Soccer's offside rule punishes bad timing instantly, so their players are forced to learn it; basketball has no offside, so mistimed cuts just quietly fail and nobody learns anything. → [The Run Starts Before the Pass](/blog/the-run-starts-before-the-pass)
+
+**3. Get off the straight line.** This is the one Spain built a title on. Watch a midfielder the instant a teammate wins the ball: three small steps sideways, just enough that there's a clean line between the ball and their feet. Not a sprint — three steps. Do that constantly, with ten players, and you can hold the ball all night. → [Get Off the Straight Line](/blog/get-off-the-straight-line)
+
+**4. Switch the side of the attack.** Defences shift toward the ball as a unit, which means the far side of the field is always the least defended part of it. One forty-metre diagonal turns a hopeless traffic jam into a one-on-one. In basketball that's ball reversal and the skip pass. → [The Ball Moves Faster Than the Defence](/blog/the-ball-moves-faster-than-the-defence)
+
+**5. Great players don't create space alone.** The tournament's own verdict on this was almost too neat: the best-player award went to a holding midfielder whose job was mostly to receive the ball and give it to someone better placed. The stars still scored the goals. The system decided where they got to do it. → [Great Players Don't Create Space Alone](/blog/great-players-dont-create-space-alone)
+
+## The same five players, spread
+
+Now put those ideas on the floor. Same five kids, same defence, nothing changed except that everyone understands where to stand.
+
+<CourtDiagram court="half" title="Half-court diagram showing good spacing. The same five green attackers are spread across five positions — both corners, both wings and the top of the key — with five stone defenders now stretched across the whole floor to cover them. Two clean orange passing lanes run from the ball-handler on the right wing to the top of the key and to the right corner, and a green arrow shows the left wing player cutting toward the basket into a marked open spot." caption="The same five players, spread — now the defence has to cover the whole floor">
+  <Player x={272} y={180} label="1" />
+  <Ball x={288} y={170} />
+  <Player x={306} y={66} label="2" />
+  <Player x={170} y={234} label="3" />
+  <Player x={68} y={182} label="4" />
+  <Player x={34} y={66} label="5" />
+  <Player x={254} y={162} label="x" team="defence" />
+  <Player x={266} y={98} label="x" team="defence" />
+  <Player x={178} y={208} label="x" team="defence" />
+  <Player x={98} y={206} label="x" team="defence" />
+  <Player x={58} y={94} label="x" team="defence" />
+  <PassArrow x1={266} y1={192} x2={188} y2={228} />
+  <PassArrow x1={286} y1={160} x2={306} y2={86} />
+  <MoveArrow x1={76} y1={170} x2={126} y2={122} curve={-10} />
+  <Spot x={134} y={112} />
+</CourtDiagram>
+
+Five defenders, and now every one of them has a genuine job. Nobody has a spare body to help with. There are clean lines to pass along. And when the left wing cuts, there's actually somewhere to cut *to*, because nobody is standing in it.
+
+That's the difference between the two diagrams: not effort, not talent, not a clever play. Just five players who know that their position is a contribution — the point I keep coming back to in [why spacing is the most undertaught fundamental](/blog/why-spacing-is-undertaught).
+
+## How to watch a game like a coach
+
+You don't need the World Cup for this. It works on any invasion sport, any weekend, any screen — soccer, basketball, netball, hockey, whatever's on.
+
+**Watch one player who doesn't have the ball.** Pick a midfielder or a wing and follow only them for two minutes. Where do they go when their team wins the ball? When do they deliberately stand still? You will see more coaching content in those two minutes than in an hour of highlights.
+
+**Watch the team without the ball.** What shape are they holding? When the ball moves, who moves with it, and who stays? This is how kids start to understand that defence is a shape, not five chases.
+
+**Rewind the goal.** When something great happens, go back ten seconds and count how many players touched the space before anyone touched the ball. That's the question this whole series was built to answer.
+
+And the one question worth asking a young player at half-time, which is worth more than any explanation you could give them:
+
+> *Who created that — the scorer, or someone who never touched the ball?*
+
+## What the champions actually proved
+
+The tidy thing about this tournament is that the team who won did it by being the best in the world at the least glamorous parts of the game. Not the most individually gifted squad. The one that worked hardest to give the ball somewhere to go, over and over, for a month.
+
+Which is a strange and useful thing to be able to tell a nine-year-old. The invisible work — holding the corner, taking three steps sideways, making the run that drags a defender away from your teammate — isn't the boring job you do until you're good enough to do the exciting one. It *is* the game. It's what the champions of the world just spent a month demonstrating.
+
+Where to stand, and why. That's the whole curriculum.
+
+---
+
+*If you want the more technical version of all of this, the five distinct kinds of space — structural, created, borrowed, temporal and transition — are broken down in [The Five Kinds of Space](/blog/the-five-kinds-of-space).*

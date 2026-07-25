@@ -13,19 +13,26 @@ the player with the ball. It's about the other players and where they are.
 The final post pays that off: great players shine *because* the team's
 spacing lets them.
 
-**Status:** post 2 (patience) published · post 3 (timed runs) published ·
-post 4 (passing angles) published as "Get Off the Straight Line" — first
-post in the series to use the MDX court-diagram system (two half-court
-diagrams: dead-line-vs-relocation, and the broken-triangle rondo) ·
-post 5 (switching sides) published as "The Ball Moves Faster Than the
-Defence", with two half-court diagrams (the overload + skip pass, and
-the three-pass reversal chain) ·
-post 6 (closer, re-anchored on Spain's actual World Cup win + Rodri's
-Golden Ball) published as "Great Players Don't Create Space Alone" ·
-only post 1 (the opener) still to write — and it now needs to be a
-retrospective rather than a "the tournament is on" curtain-raiser. Note:
-tournament is now over — remaining posts should reference Spain's win
-rather than "any match this week".
+**Status: SERIES COMPLETE — all six published.**
+
+- Post 1 (opener) — "Same Game, Bigger Pitch" · **deep-dive**, written as a
+  retrospective after Spain's win rather than the originally-outlined
+  curtain-raiser. Serves as the series hub: links out to all five concept
+  posts. Two half-court diagrams contrasting a bunched youth possession
+  with the same five players spread.
+- Post 2 (patience) — "Patience Is an Attacking Skill"
+- Post 3 (timed runs) — "The Run Starts Before the Pass"
+- Post 4 (passing angles) — "Get Off the Straight Line" · first in the
+  series to use the MDX court-diagram system (dead-line-vs-relocation,
+  and the broken-triangle rondo)
+- Post 5 (switching sides) — "The Ball Moves Faster Than the Defence" ·
+  two diagrams (overload + skip pass, three-pass reversal chain)
+- Post 6 (closer) — "Great Players Don't Create Space Alone" ·
+  re-anchored on Spain's actual win + Rodri's Golden Ball
+
+**If the series is ever extended:** the tournament is over, so new posts
+should reference Spain's win as a settled example rather than "any match
+this week", and should link back to the opener as the hub.
 **Category:** fundamentals (post 6 could sit in mindset)
 **Cadence:** 1–2 per week while the tournament runs — timely, then evergreen.
 **Note on examples:** reference patterns, not specific match results — keeps
