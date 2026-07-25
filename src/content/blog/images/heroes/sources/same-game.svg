@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6efe2"/>
+  <!-- the bigger pitch, on the left -->
+  <rect x="70" y="130" width="470" height="370" rx="16" fill="none" stroke="#8a7a63" stroke-width="6"/>
+  <line x1="305" y1="130" x2="305" y2="500" stroke="#8a7a63" stroke-width="6"/>
+  <circle cx="305" cy="315" r="62" fill="none" stroke="#8a7a63" stroke-width="6"/>
+  <!-- players holding a shape on the pitch -->
+  <g>
+    <circle cx="158" cy="232" r="30" fill="#5f5546" opacity="0.16" transform="translate(6 6)"/>
+    <circle cx="158" cy="232" r="30" fill="#006437"/>
+    <circle cx="182" cy="410" r="30" fill="#5f5546" opacity="0.16" transform="translate(6 6)"/>
+    <circle cx="182" cy="410" r="30" fill="#006437"/>
+    <circle cx="392" cy="196" r="30" fill="#5f5546" opacity="0.16" transform="translate(6 6)"/>
+    <circle cx="392" cy="196" r="30" fill="#006437"/>
+    <circle cx="440" cy="404" r="30" fill="#5f5546" opacity="0.16" transform="translate(6 6)"/>
+    <circle cx="440" cy="404" r="30" fill="#006437"/>
+  </g>
+  <!-- the smaller court, on the right -->
+  <rect x="700" y="185" width="430" height="260" rx="16" fill="none" stroke="#8a7a63" stroke-width="6"/>
+  <rect x="1010" y="255" width="120" height="120" fill="#e9dfc6" stroke="#8a7a63" stroke-width="6"/>
+  <circle cx="1010" cy="315" r="44" fill="none" stroke="#8a7a63" stroke-width="6"/>
+  <!-- players holding the same shape on the court -->
+  <g>
+    <circle cx="762" cy="246" r="30" fill="#5f5546" opacity="0.16" transform="translate(6 6)"/>
+    <circle cx="762" cy="246" r="30" fill="#006437"/>
+    <circle cx="776" cy="392" r="30" fill="#5f5546" opacity="0.16" transform="translate(6 6)"/>
+    <circle cx="776" cy="392" r="30" fill="#006437"/>
+    <circle cx="916" cy="222" r="30" fill="#5f5546" opacity="0.16" transform="translate(6 6)"/>
+    <circle cx="916" cy="222" r="30" fill="#006437"/>
+    <circle cx="928" cy="408" r="30" fill="#5f5546" opacity="0.16" transform="translate(6 6)"/>
+    <circle cx="928" cy="408" r="30" fill="#006437"/>
+  </g>
+  <!-- one continuous pass, carrying the idea from one game to the other -->
+  <path d="M 190 250 Q 330 92 430 190" fill="none" stroke="#c2410c" stroke-width="11" stroke-linecap="round" stroke-dasharray="0.1 28"/>
+  <path d="M 452 396 Q 600 560 758 402" fill="none" stroke="#c2410c" stroke-width="11" stroke-linecap="round" stroke-dasharray="0.1 28"/>
+  <path d="M 786 252 Q 860 168 906 216" fill="none" stroke="#c2410c" stroke-width="11" stroke-linecap="round" stroke-dasharray="0.1 28"/>
+  <polygon points="928,232 894,196 878,238" fill="#c2410c"/>
+  <!-- the ball, where the sequence starts: on the pitch -->
+  <circle cx="146" cy="288" r="24" fill="#5f5546" opacity="0.16" transform="translate(6 6)"/>
+  <circle cx="146" cy="288" r="24" fill="#c2410c"/>
+  <path d="M 122 288 H 170 M 146 264 V 312" stroke="#f6efe2" stroke-width="4.5" fill="none"/>
+</svg>
