@@ -4,12 +4,26 @@ import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 
-const gamePosts = allPosts.filter(p => p.data.type === 'post-game');
-const trainingPosts = allPosts.filter(p => p.data.type === 'post-training');
+// The season the journal is currently tracking. Bump this when a new season starts;
+// older seasons stay below as an archive.
+const CURRENT_SEASON = '2026-27';
 
 const timelinePosts = allPosts
   .filter(p => p.data.type === 'post-game' || p.data.type === 'post-training')
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Entries without a season tag count towards the current season
+const seasonOf = (p: (typeof timelinePosts)[number]) => p.data.season ?? CURRENT_SEASON;
+
+const currentPosts = timelinePosts.filter(p => seasonOf(p) === CURRENT_SEASON);
+const gamePosts = currentPosts.filter(p => p.data.type === 'post-game');
+const trainingPosts = currentPosts.filter(p => p.data.type === 'post-training');
+
+const pastSeasons = [...new Set(timelinePosts.map(seasonOf))]
+  .filter(s => s !== CURRENT_SEASON)
+  .sort()
+  .reverse()
+  .map(season => ({ season, posts: timelinePosts.filter(p => seasonOf(p) === season) }));
 
 const typeLabel: Record<string, string> = {
   'post-game': 'Game',
@@ -36,7 +50,7 @@ const dotColour: Record<string, string> = {
       Coaching Journal
     </p>
     <h1 class="text-3xl sm:text-4xl font-bold text-stone-900 mb-3">
-      Season Log
+      Season Log <span class="text-stone-400 font-medium">{CURRENT_SEASON}</span>
     </h1>
     <p class="text-stone-500 mb-10">
       A running record of sessions and games. Updated throughout the season.
@@ -53,21 +67,21 @@ const dotColour: Record<string, string> = {
         <p class="text-sm text-stone-500 mt-1">Sessions</p>
       </div>
       <div class="bg-white border border-stone-200 rounded-xl p-5">
-        <p class="text-2xl font-bold text-stone-900">{timelinePosts.length}</p>
+        <p class="text-2xl font-bold text-stone-900">{currentPosts.length}</p>
         <p class="text-sm text-stone-500 mt-1">Total entries</p>
       </div>
     </div>
 
-    {timelinePosts.length === 0 ? (
+    {currentPosts.length === 0 ? (
       <div class="rounded-xl border-2 border-dashed border-stone-200 p-12 text-center">
         <p class="text-stone-400 text-sm mb-1">Season entries will appear here.</p>
-        <p class="text-stone-300 text-xs">First session coming soon.</p>
+        <p class="text-stone-300 text-xs">Game one is in the books — the write-up is on its way.</p>
       </div>
     ) : (
       <div class="relative">
         <div class="absolute left-3 top-2 bottom-2 w-px bg-stone-200"></div>
         <div class="space-y-6">
-          {timelinePosts.map((post) => {
+          {currentPosts.map((post) => {
             const formattedDate = post.data.date.toLocaleDateString('en-AU', {
               day: 'numeric', month: 'short', year: 'numeric',
             });
@@ -100,5 +114,24 @@ const dotColour: Record<string, string> = {
         </div>
       </div>
     )}
+
+    {pastSeasons.map(({ season, posts }) => (
+      <div class="mt-16 pt-10 border-t border-stone-200">
+        <p class="text-xs font-semibold text-stone-400 uppercase tracking-widest mb-5">
+          Season {season}
+        </p>
+        <div class="space-y-3">
+          {posts.map((post) => (
+            <a
+              href={`/blog/${post.id}`}
+              class="block bg-white border border-stone-200 rounded-xl p-4 hover:border-green-700 transition-all"
+            >
+              <span class="text-xs text-stone-400">{typeLabel[post.data.type]}</span>
+              <p class="font-semibold text-stone-900">{post.data.title}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
   </div>
 </BaseLayout>

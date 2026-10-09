@@ -14,6 +14,8 @@ const blog = defineCollection({
         // hero image: shown at the top of the post and used as the social share card
         heroImage: image().optional(),
         heroAlt: z.string().optional(),
+        // which coaching season a game/training entry belongs to, e.g. '2026-27'
+        season: z.string().optional(),
         // post-game fields
         result: z.string().optional(),
         // post-training fields
