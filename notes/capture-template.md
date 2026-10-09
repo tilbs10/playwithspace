@@ -10,6 +10,7 @@ The worse and more honest it is, the better the post will be.*
 - Session or Game:
 - Result (if game):
 - How many players:
+- Season: (e.g. 2026-27 — goes in the post's `season:` frontmatter)
 
 ## What I Set Out To Do
 *One sentence — what was the focus going in?*
