@@ -4,6 +4,7 @@ date: 2026-10-08
 category: coaching
 tags: [spacing, game-review, u12-girls, defence, passing, baseline]
 type: post-game
+result: "L 6-38"
 season: 2026-27
 ---
 

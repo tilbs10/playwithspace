@@ -7,7 +7,7 @@ Claude to turn it into a post-game post using the template.*
 ## The Basics
 - Date: 2026-10-08
 - Session or Game: Game 1 (first game of the season, no prior training)
-- Result:
+- Result: L 6-38
 - How many players: 4 (2 had played basketball before; 2 were playing their first real game, previously netball)
 - Season: 2026-27
 
