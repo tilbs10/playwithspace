@@ -1,6 +1,6 @@
 # Game 2 — Capture
 
-- Date: ~2026-10-18 (confirm)
+- Date: 2026-10-18
 - Result: W 50-6
 - Players: 6 (strongest player rejoined)
 - Season: 2026-27
@@ -17,3 +17,9 @@ press. Improvement in court spacing because our stronger players were able
 to handle and mitigate the pressure, which bought time to get to spots.
 
 *Written up as: `src/content/blog/game-2-hands-up-eyes-open.md`*
+
+## The Moment (from the coach)
+
+Key moments were the girls' ability to take coaching instruction from
+timeouts and breaks, and either implement it or at least show awareness
+through their actions.
