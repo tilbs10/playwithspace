@@ -1,6 +1,6 @@
 # Game 3 — Capture
 
-- Date: 2026-10-25
+- Date: 2026-10-22
 - Result: W 28-12
 - Players: 2 fill-ins covering for 2 regulars who had other obligations
 - Season: 2026-27
@@ -30,3 +30,12 @@ opportunities
 
 One player picking up 2 steals in the 2nd half off the exact play: hands-up
 defence, reading the next pass.
+
+## Next Session Focus (from the coach)
+
+The next session I want to cover how to force players to a sideline where
+possible and use the sideline as an extra defender. On offense at the next
+session I want to continue our work on the pivot, developing that to a
+pivot, into space creating dribble before passing and then the other is
+taking a rebound above your head and passing to an outlet box, teaching the
+outlet box and where it is and why we have it
