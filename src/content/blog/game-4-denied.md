@@ -40,7 +40,7 @@ It looked like a team with one answer.
 
 ## What We Did Next
 
-We trained the day after, on the 2nd. The focus came straight out of the game: getting more comfortable with quick decisions, passing on the move, and maintaining momentum.
+We trained the day after, on the 2nd — [the full session is here](/blog/session-3-keep-moving). The focus came straight out of the game: getting more comfortable with quick decisions, passing on the move, and maintaining momentum.
 
 Quick decisions give a defence less time to deny anything. Passing on the move keeps the ball from stopping. And momentum is the opposite of what we saw on Sunday, when the ball kept arriving to someone standing still with nowhere to go.
 
