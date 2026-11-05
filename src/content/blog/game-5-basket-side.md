@@ -10,9 +10,9 @@ season: 2026-27
 
 ## The Setup
 
-A comfortable win, 53-6. We'd beaten this same team 52-6 last time, so the girls did well again.
+A comfortable win, 53-6. We'd beaten this same team 50-6 in [Game 2](/blog/game-2-hands-up-eyes-open), so the girls did well again.
 
-As I said after [Game 2](/blog/game-2-hands-up-eyes-open), a win like this isn't proof of anything. The other team was weaker, and I'd rather use the night for what it's good for.
+As I said then, a win like this isn't proof of anything. The other team was weaker, and I'd rather use the night for what it's good for.
 
 ## What I Saw
 
