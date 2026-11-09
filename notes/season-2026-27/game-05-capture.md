@@ -7,7 +7,7 @@
 ## Raw notes (from the coach)
 
 Just finished our game with a win, 53-6. Last game we defeated the same
-team 52-6 so the girls did well again. Getting better and getting back on
+team 50-6 (confirmed as game 2; first written as 52-6) so the girls did well again. Getting better and getting back on
 defense, a lot of our positional play on defense wasn't exposed tonight due
 to weaker opposition, however we will take the opportunity at training to
 talk about being basket side at all times and the risks of letting players
