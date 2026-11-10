@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { puzzles, typeLabel } from '../../data/puzzles';
+---
+
+<BaseLayout
+  title="Play"
+  description="Freeze-frame basketball puzzles. One frozen court, one question: where is the space?"
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <p class="text-xs font-semibold text-green-800 uppercase tracking-widest mb-4">Play</p>
+    <h1 class="text-3xl sm:text-4xl font-bold text-stone-900 mb-3">Read the Floor</h1>
+    <p class="text-stone-500 mb-2">
+      Each puzzle is one frozen moment in a game and one question. Tap where you would go, or who you would pass to.
+    </p>
+    <p class="text-stone-500 mb-8">
+      There is no timer and no score. Some puzzles have more than one good answer.
+    </p>
+
+    <a href={`/play/${puzzles[0].id}`} id="start"
+       class="inline-flex items-center bg-[#006437] text-white font-bold text-sm px-6 py-3 rounded-full hover:bg-emerald-900 transition-colors mb-10">
+      Start with puzzle 1 →
+    </a>
+
+    <div class="grid gap-3 sm:grid-cols-2">
+      {puzzles.map((puzzle, i) => (
+        <a href={`/play/${puzzle.id}`} data-puzzle={puzzle.id}
+           class="block bg-white border border-stone-200 rounded-3xl p-5 hover:border-[#006437] hover:shadow-md transition-all group">
+          <div class="flex items-center gap-2 mb-2">
+            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-emerald-50 text-[#006437]">
+              {typeLabel[puzzle.type]}
+            </span>
+            <span class="text-xs text-stone-400">{puzzle.concept}</span>
+            <span class="done hidden text-xs font-bold text-[#006437] ml-auto">Solved ✓</span>
+          </div>
+          <p class="font-bold text-stone-900 group-hover:text-[#006437] transition-colors">
+            {i + 1}. {puzzle.title}
+          </p>
+        </a>
+      ))}
+    </div>
+
+    <div class="mt-12 pt-8 border-t border-stone-200">
+      <p class="text-xs font-semibold text-stone-400 uppercase tracking-widest mb-3">For coaches and parents</p>
+      <p class="text-stone-600 mb-2">
+        Every puzzle has its own link, so you can send one to a player or a whole team after training.
+        Each one points back to the article that explains the idea.
+      </p>
+      <p class="text-stone-600">
+        Nothing is collected. There are no accounts, and progress is only saved on the device being used.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  // Mark solved puzzles from this device's saved progress
+  try {
+    const data = JSON.parse(localStorage.getItem('pws-play-v1') ?? '{}');
+    document.querySelectorAll<HTMLElement>('[data-puzzle]').forEach(card => {
+      if (data[card.dataset.puzzle ?? '']) card.querySelector('.done')?.classList.remove('hidden');
+    });
+  } catch {}
+</script>
