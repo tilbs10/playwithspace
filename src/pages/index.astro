@@ -7,6 +7,12 @@ const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 const latestPosts = allPosts
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, 3);
+
+// The most recent game or training entry: one click from the hero
+const latestCourt = allPosts
+  .filter(p => p.data.type === 'post-game' || p.data.type === 'post-training')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())[0];
+const latestCourtDate = latestCourt?.data.date.toLocaleDateString('en-AU', { day: 'numeric', month: 'short' });
 ---
 
 <BaseLayout
@@ -33,21 +39,38 @@ const latestPosts = allPosts
         A coaching journal exploring spacing, movement, and awareness in youth basketball.
         Written down so the lessons don't disappear.
       </p>
-      <div class="flex flex-wrap gap-4">
+      {latestCourt && (
         <a
-          href="/coaching"
-          class="inline-block bg-white text-[#006437] font-bold px-7 py-3.5 rounded-full text-sm hover:bg-stone-100 transition-colors"
+          href={`/blog/${latestCourt.id}`}
+          class="group flex items-center gap-4 bg-white rounded-3xl px-6 py-4 mb-5 w-full sm:w-auto sm:max-w-md sm:inline-flex hover:bg-stone-100 transition-colors"
         >
-          Read the journal
+          <span class="min-w-0">
+            <span class="block text-xs font-semibold text-[#006437] uppercase tracking-widest mb-1">
+              Latest {latestCourt.data.type === 'post-game' ? 'game' : 'session'} · {latestCourtDate}
+              {latestCourt.data.result && <span class="font-mono text-stone-500 normal-case tracking-normal"> · {latestCourt.data.result}</span>}
+            </span>
+            <span class="block font-bold text-stone-900 leading-snug">{latestCourt.data.title}</span>
+          </span>
+          <svg class="w-5 h-5 text-[#006437] flex-shrink-0 ml-auto group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5-5 5M6 12h12"/>
+          </svg>
+        </a>
+      )}
+      <div class="flex flex-wrap items-center gap-x-6 gap-y-3">
+        <a
+          href="/journal"
+          class="inline-flex items-center gap-2 text-white font-semibold text-sm hover:underline"
+        >
+          All games and sessions
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5-5 5M6 12h12"/>
+          </svg>
         </a>
         <a
           href="/about"
           class="inline-flex items-center gap-2 text-white/70 font-semibold text-sm hover:text-white transition-colors"
         >
           What is this?
-          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5-5 5M6 12h12"/>
-          </svg>
         </a>
       </div>
     </div>
