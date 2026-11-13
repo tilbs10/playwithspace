@@ -1,7 +1,7 @@
 # Game 6 — Capture
 
-- Date: 2026-11-12 (assumed; confirm)
-- Result: W 53-6 (same score as game 5; confirm)
+- Date: 2026-11-12
+- Result: W 42-14 (corrected by the coach; first noted as 53-6)
 - Season: 2026-27
 
 ## Raw notes (from the coach)
@@ -24,3 +24,10 @@ outlet pass. A lot of our outlet passes were rushed and I want to, in
 preparation for the next game, continue our work on the screen away.
 
 *Written up as: `src/content/blog/game-6-bring-it-down.md`*
+
+## Corrections and additions (from the coach)
+
+Score was 42-14, not 53-6. We were preparing for their aggression: quite an
+in-your-face defensive team. The change probably came in the second
+quarter: we kept our shape better on defence and adjusted to the initial
+defensive pressure.
