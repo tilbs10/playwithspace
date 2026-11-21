@@ -1,5 +1,5 @@
 ---
-title: "Game 7: The Other Four"
+title: "Game 7: The Other Five"
 date: 2026-11-19
 category: coaching
 tags: [spacing, screening, press-break, game-review, u12-girls, defence]

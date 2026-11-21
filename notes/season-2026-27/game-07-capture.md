@@ -23,4 +23,4 @@ practice before playing this team again. There are only 4 teams so we will
 have a few games to work on getting the full court spacing and timing right,
 also the types of passes required to get the ball down the court.
 
-*Written up as: `src/content/blog/game-7-the-other-four.md`*
+*Written up as: `src/content/blog/game-7-the-other-five.md`*
