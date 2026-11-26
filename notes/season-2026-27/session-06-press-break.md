@@ -1,9 +1,9 @@
-# Session 5 — Beating the Press: Pass It Down the Floor
+# Session 6 — Beating the Press: Pass It Down the Floor
 
 **Theme:** Against full-court man-to-man pressure, use a screen away to get the
 ball in, pass it down the floor instead of dribbling it, and turn it into two
 phases of a fast break
-**Date:** TBC (before the next game against the top team)
+**Date:** TBC (before the next game against the top team). Planned as session 5; moved back after only 3 players attended on 23 Nov.
 **Players:** Squad — built for 5; notes below for 4 or 6
 **Duration:** 60 mins
 **Equipment:** Full court, a ball per pair, cones (6–8) to mark the starting
