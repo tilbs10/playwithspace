@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f6efe2"/>
+  <g transform="translate(-80 0)">
+  <!-- the protected lane: a painted channel running to the rim -->
+  <rect x="470" y="0" width="260" height="630" fill="#e9dfc6"/>
+  <line x1="470" y1="0" x2="470" y2="630" stroke="#8a7a63" stroke-width="6"/>
+  <line x1="730" y1="0" x2="730" y2="630" stroke="#8a7a63" stroke-width="6"/>
+  <!-- rim -->
+  <line x1="548" y1="54" x2="652" y2="54" stroke="#8a7a63" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="600" cy="84" r="22" fill="none" stroke="#c2410c" stroke-width="8"/>
+  <!-- the string that ties five defenders into one unit -->
+  <path d="M 790 392 L 650 270 L 520 214 L 410 344 L 600 470 Z" fill="none" stroke="#d97706" stroke-width="7" stroke-dasharray="0.1 24" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- five defenders -->
+  <g fill="#5f5546" opacity="0.16">
+    <circle cx="797" cy="399" r="46"/>
+    <circle cx="657" cy="277" r="40"/>
+    <circle cx="527" cy="221" r="40"/>
+    <circle cx="417" cy="351" r="40"/>
+    <circle cx="607" cy="477" r="40"/>
+  </g>
+  <g fill="#b3a68d">
+    <circle cx="790" cy="392" r="46"/>
+    <circle cx="650" cy="270" r="40"/>
+    <circle cx="520" cy="214" r="40"/>
+    <circle cx="410" cy="344" r="40"/>
+    <circle cx="600" cy="470" r="40"/>
+  </g>
+  <!-- the attacker, sent away from the middle and down the line -->
+  <circle cx="943" cy="497" r="52" fill="#5f5546" opacity="0.16"/>
+  <circle cx="936" cy="490" r="52" fill="#006437"/>
+  <circle cx="1002" cy="540" r="24" fill="#c2410c"/>
+  <path d="M 978 540 H 1026 M 1002 516 V 564" stroke="#f6efe2" stroke-width="4" fill="none"/>
+  <path d="M 960 430 Q 1060 330 1076 156" fill="none" stroke="#006437" stroke-width="9" stroke-linecap="round"/>
+  <polygon points="1078,112 1054,166 1100,166" fill="#006437"/>
+  </g>
+</svg>
