@@ -6,10 +6,8 @@ import { Image } from 'astro:assets';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 
-// From the blog: the newest article featured, plus the next three as titles.
-// Games and sessions are left out: the hero card and the journal cover those.
+// From the blog: the newest post of any kind featured, plus the next three as titles.
 const blogPosts = allPosts
-  .filter(p => p.data.type !== 'post-game' && p.data.type !== 'post-training')
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 const [featuredPost, ...olderPosts] = blogPosts;
 const morePosts = olderPosts.slice(0, 3);
@@ -18,13 +16,13 @@ const typeLabel: Record<string, string> = {
   article: 'Article',
   'quick-take': 'Quick Take',
   'deep-dive': 'Deep Dive',
+  'post-game': 'Game Review',
+  'post-training': 'Training Log',
 };
 const shortDate = (d: Date) => d.toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' });
 
-// The most recent game or training entry: one click from the hero
-const latestCourt = allPosts
-  .filter(p => p.data.type === 'post-game' || p.data.type === 'post-training')
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())[0];
+// The most recent game: one click from the hero, even when a training log is newer
+const latestCourt = blogPosts.find(p => p.data.type === 'post-game');
 const latestCourtDate = latestCourt?.data.date.toLocaleDateString('en-AU', { day: 'numeric', month: 'short' });
 ---
 
